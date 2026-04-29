@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
-import { Medicine, IntakeLog } from '../types';
-import { Icons } from '../constants';
+import { Medicine, IntakeLog } from './types';
+import { Icons } from './constants';
 
 interface PatientDashboardProps {
   medicines: Medicine[];
