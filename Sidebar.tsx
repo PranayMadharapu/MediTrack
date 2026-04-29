@@ -1,6 +1,6 @@
 import React from 'react';
-import { UserRole, User } from '../types';
-import { Icons } from '../constants';
+import { UserRole, User } from './types';
+import { Icons } from './constants';
 
 interface SidebarProps {
   activeTab: string;
